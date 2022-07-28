@@ -1,10 +1,16 @@
 import React from 'react';
 import './App.css';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
+import NavBar from './Components/Nav/NavBar';
 
 
 function App() {
   return (
-   <h1> This is a returned thing</h1>
+   <> <Header/>
+      <NavBar/>
+      <Footer/>
+   </>
   );
 }
 
